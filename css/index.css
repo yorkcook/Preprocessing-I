@@ -134,7 +134,7 @@ html,
 body {
   height: 100%;
 }
-body {
+.contain .body {
   max-width: 800px;
   margin: 0 auto;
 }
@@ -208,4 +208,15 @@ footer {
   /*background: green;*/
   padding: 10px;
   /*border-top: 1px solid black;*/
+}
+@media (max-width: 500px) {
+  body {
+    background-color: grey;
+  }
+  .navigation {
+    display: inline-block;
+  }
+  .navigation a {
+    margin: 30px;
+  }
 }
