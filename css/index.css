@@ -162,9 +162,15 @@ h2 {
   font-size: 24px;
 }
 .intro {
-  /*background-color: red;*/
-  line-height: 2;
-  margin-bottom: 20px;
+  /*background-color: red;
+	line-height: 2;
+	margin-bottom: 20px;*/
+  margin-bottom: 30px;
+  /*background: red;*/
+  line-height: 1.5;
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+  font-family: Arial;
 }
 .employment {
   margin-bottom: 30px;
@@ -172,10 +178,18 @@ h2 {
   line-height: 1.5;
   border-bottom: 1px solid black;
   padding-bottom: 20px;
+  font-family: Arial;
 }
 .skills {
   /*background: purple;*/
   margin-bottom: 30px;
+  /*background: red;*/
+  line-height: 1.5;
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+  font-family: Arial;
+  /*margin-bottom: 30px;
+	line-height: 2;*/
 }
 .skills ul {
   list-style-type: disc;
@@ -193,5 +207,5 @@ footer {
   margin: 10px;
   /*background: green;*/
   padding: 10px;
-  border-top: 1px solid black;
+  /*border-top: 1px solid black;*/
 }

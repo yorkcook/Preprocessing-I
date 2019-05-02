@@ -59,6 +59,10 @@ html, body {
 
 @important: red;
 
+@writing: Arial;
+
+
+
 body {
 	max-width: 800px;
 	margin: 0 auto;
@@ -94,9 +98,10 @@ h2 {
 }
 
 .intro {
-	/*background-color: red;*/
+	/*background-color: red;
 	line-height: 2;
-	margin-bottom: 20px;
+	margin-bottom: 20px;*/
+	.employment();
 }
 
 .employment {
@@ -105,15 +110,18 @@ h2 {
 	line-height: 1.5;
 	border-bottom: 1px solid black;
 	padding-bottom: 20px;
+	font-family: @writing;
 }
 
 .skills {
 	/*background: purple;*/	
+	.employment();
 	ul {
 		list-style-type: disc;
 		margin-left: 20px;
 	}
-	margin-bottom: 30px;
+	/*margin-bottom: 30px;
+	line-height: 2;*/
 }
 
 
@@ -133,5 +141,5 @@ footer {
 	margin: 10px;
 	/*background: green;*/
 	padding: 10px;
-	border-top: 1px solid black;
+	/*border-top: 1px solid black;*/
 }
