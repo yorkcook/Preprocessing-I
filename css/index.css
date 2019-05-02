@@ -147,7 +147,7 @@ body {
   padding: 0px 0px 25px;
 }
 .navigation a {
-  color: blue;
+  color: black;
   margin: 60px;
 }
 .york {
@@ -158,31 +158,40 @@ body {
   margin-bottom: 50px;
 }
 h2 {
-  color: dodgerblue;
+  color: red;
   font-size: 24px;
 }
 .intro {
-  background-color: red;
+  /*background-color: red;*/
   line-height: 2;
   margin-bottom: 20px;
 }
-.bottom {
-  background-color: red;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+.employment {
+  margin-bottom: 30px;
+  /*background: red;*/
+  line-height: 1.5;
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
 }
-.bottom .attributes {
-  background-color: green;
-  width: 100%;
-  display: inline-block;
-  margin: 5px;
-  padding: 75px 50px;
-  font-size: 20px;
+.skills {
+  /*background: purple;*/
+  margin-bottom: 30px;
+}
+.skills ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+.titles {
+  margin-bottom: 20px;
+  color: red;
 }
 footer {
   display: flex;
   justify-content: center;
   font-size: 18px;
+  color: black;
+  margin: 10px;
+  /*background: green;*/
+  padding: 10px;
+  border-top: 1px solid black;
 }
